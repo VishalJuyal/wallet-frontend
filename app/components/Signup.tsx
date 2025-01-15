@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import { getCurrentYear } from "../common/utils";
 import Ethereum from "../images/ethereumSign.png";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 const SignUpForm: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  const router = useRouter();
+  // const router = useRouter();
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
