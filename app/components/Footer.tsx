@@ -18,7 +18,12 @@ export default function Footer() {
       <button className="text-white" onClick={() => router.push("/swap")}>
         ➕
       </button>
-      <button className="text-white">📈</button>
+      <button
+        className="text-white"
+        onClick={() => router.push("/crypto-graphs-analysis")}
+      >
+        📈
+      </button>
       <button className="text-white" onClick={() => router.push("/settings")}>
         ⚙️
       </button>
