@@ -1,5 +1,5 @@
 "use client";
-import React, { Suspense, useState } from "react";
+import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
 import Footer from "./Footer";
 
