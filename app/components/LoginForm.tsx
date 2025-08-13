@@ -22,10 +22,10 @@ const LoginForm: React.FC = () => {
     <div className="flex items-center justify-center h-screen bg-[#131216] gap-20">
       <div className="flex flex-col justify-between h-[90%] w-[50%] max-w-lg p-8">
         <div>
-          <h1 className="text-white text-3xl font-bold mb-4">
+          <h1 className="text-white text-2xl font-bold mb-4">
             V Crypto Wallet
           </h1>
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-base">
             Platform where you can buy and exchange crypto.
           </p>
         </div>
@@ -37,7 +37,7 @@ const LoginForm: React.FC = () => {
 
       <div className="mt-10 flex items-center justify-center w-[40%] max-w-md bg-[#1F1D1F] rounded-lg shadow-lg p-6">
         <div className="w-full">
-          <h2 className="text-2xl font-semibold text-white text-center mb-6">
+          <h2 className="text-xl font-semibold text-white text-center mb-6">
             Login
           </h2>
           <form onSubmit={handleSubmit}>

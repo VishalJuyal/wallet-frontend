@@ -15,7 +15,7 @@ export default function Header() {
             height={50}
             className="rounded-full"
           />
-          <span className="font-semibold text-lg text-white">
+          <span className="font-semibold text-base text-white">
             Welcome back, Vishal
           </span>
         </div>
