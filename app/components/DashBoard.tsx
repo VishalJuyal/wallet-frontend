@@ -36,7 +36,7 @@ const Dashboard: React.FC = () => {
             <h2 className="text-lg font-medium text-gray-300">Portfolio Balance</h2>  
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>  
           </div>  
-          <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">  
+          <div className="text-3xl font-bold mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">  
             $12,550.50  
           </div>  
           <div className="flex items-center gap-2">  
@@ -48,7 +48,7 @@ const Dashboard: React.FC = () => {
   
         {/* My Portfolio Section */}  
         <section className="mb-6">  
-          <h2 className="text-xl font-semibold mb-4 text-gray-100">My Portfolio</h2>  
+          <h2 className="text-lg font-semibold mb-4 text-gray-100">My Portfolio</h2>  
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">  
             {portfolioData.map((asset, index) => (  
               <div key={index} className="bg-[#1F1D1F] hover:bg-[#252325] transition-all duration-300 p-5 rounded-xl shadow-lg border border-gray-800/30 hover:border-gray-700/50">  
@@ -63,7 +63,7 @@ const Dashboard: React.FC = () => {
                     </div>  
                   </div>  
                 </div>  
-                <div className="text-xl font-semibold mb-2">${asset.value.toLocaleString()}</div>  
+                <div className="text-lg font-semibold mb-2">${asset.value.toLocaleString()}</div>  
                 <div className="flex items-center gap-1">  
                   {asset.positive ? (  
                     <FiTrendingUp className="text-green-500" size={14} />  
@@ -95,7 +95,7 @@ const Dashboard: React.FC = () => {
   
         {/* Market Statistics */}  
         <section>  
-          <h2 className="text-xl font-semibold mb-4 text-gray-100">Market Statistics</h2>  
+          <h2 className="text-lg font-semibold mb-4 text-gray-100">Market Statistics</h2>  
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">  
             {marketData.map((asset, index) => (  
               <div key={index} className="bg-[#1F1D1F] hover:bg-[#252325] transition-all duration-300 p-5 rounded-xl shadow-lg border border-gray-800/30 hover:border-gray-700/50">  
@@ -110,7 +110,7 @@ const Dashboard: React.FC = () => {
                     </div>  
                   </div>  
                 </div>  
-                <div className="text-lg font-semibold mb-2">${asset.value}</div>  
+                <div className="text-base font-semibold mb-2">${asset.value}</div>  
                 {asset.change !== 0 && (  
                   <div className="flex items-center gap-1">  
                     {asset.positive ? (  
