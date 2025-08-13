@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FiUser, FiLock, FiEdit3, FiFileText, FiLogOut, FiChevronRight, FiPieChart } from "react-icons/fi";
+import { FiUser, FiLock, FiFileText, FiLogOut, FiChevronRight, FiPieChart } from "react-icons/fi";
 
 const Settings = () => {
   const settingsItems = [
